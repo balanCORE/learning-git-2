@@ -44,14 +44,16 @@ main .article {
   margin: 0 auto;
   border-left: 2px solid lightgreen; }
 
-footer .contact-group {
-  display: flex;
-  justify-content: space-around; }
-  footer .contact-group div {
-    height: 5vh;
+footer {
+  text-align: center; }
+  footer .contact-group {
     display: flex;
-    align-items: center; }
-    footer .contact-group div h4 {
-      text-transform: uppercase; }
+    justify-content: space-around; }
+    footer .contact-group div {
+      height: 5vh;
+      display: flex;
+      align-items: center; }
+      footer .contact-group div h4 {
+        text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
